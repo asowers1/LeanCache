@@ -33,28 +33,7 @@ struct ExampleObject {
 }
 ```
 
-And create a caching wrapper for that model
-
-```
-class ExampleObjectCache: NSObject, ExampleObjectCacheType {
-    let cache: Cache<ExampleObjectCoder>
-
-    override init() {
-        self.cache = Cache(name: "exampleObject")
-    }
-
-    func get() -> ExampleObject? {
-        return self.cache.get()?.exampleObject
-    }
-
-    func set(object: ExampleObject) {
-        let coder = ExampleObjectCoder(exampleObject: object)
-        self.cache.set(coder)
-    }
-}
-```
-
-Next, you'd create a cache type protocol and implement a coder/decoder
+Next, you'd create a cache type protocol and implement a coder for your model
 
 ```
 protocol ExampleObjectCacheType {
@@ -88,7 +67,29 @@ class ExampleObjectCoder: NSObject, NSCoding {
     }
 }
 ```
-Finally, you can interact with your cache
+
+After that, create a caching wrapper for your model
+
+```
+class ExampleObjectCache: NSObject, ExampleObjectCacheType {
+    let cache: Cache<ExampleObjectCoder>
+
+    override init() {
+        self.cache = Cache(name: "exampleObject")
+    }
+
+    func get() -> ExampleObject? {
+        return self.cache.get()?.exampleObject
+    }
+
+    func set(object: ExampleObject) {
+        let coder = ExampleObjectCoder(exampleObject: object)
+        self.cache.set(coder)
+    }
+}
+```
+
+Finally, you can interact with your cache and persist new objects
 
 ```
 let andrew = ExampleObject(name: "Andrew", age: 24, favoriteLanguage: "Swift")
