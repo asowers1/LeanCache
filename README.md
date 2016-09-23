@@ -33,7 +33,7 @@ struct ExampleObject {
 }
 ```
 
-And create a caching wrapper that model
+And create a caching wrapper for that model
 
 ```
 class ExampleObjectCache: NSObject, ExampleObjectCacheType {
