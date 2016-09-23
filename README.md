@@ -101,6 +101,6 @@ print(cache.get()?.name) // "Andrew"
 
 //get model from persistent cache
 cache.set(mariah)
-print(ExampleObjectCache().get()?.name) // Mariah
+print(ExampleObjectCache().get()?.name) // "Mariah"
 
 ```
