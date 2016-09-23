@@ -4,7 +4,7 @@
 ![Languages](https://img.shields.io/badge/languages-swift%202.3-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)][Carthage]
-[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatable-red.svg
+[![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-red.svg
 )][Cocoapods]
 
 [Carthage]: https://github.com/carthage/carthage
