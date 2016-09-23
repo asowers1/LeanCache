@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		8B00047A1D95749A005AACB5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
 		8B00047C1D9574CF005AACB5 /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
+		8B63A19B1D9580BF004F937C /* ExampleObjectCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */; };
+		8B63A19D1D9580E0004F937C /* ExampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19C1D9580E0004F937C /* ExampleObject.swift */; };
 		8BEF1AB51D92E34300BD3A2D /* LeanCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */; };
 		8BEF1ABA1D92E34300BD3A2D /* LeanCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */; };
 		8BEF1ABC1D92E34300BD3A2D /* LeanCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -29,6 +31,8 @@
 /* Begin PBXFileReference section */
 		8B0004791D95749A005AACB5 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		8B00047B1D9574CF005AACB5 /* PersistentCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentCache.swift; sourceTree = "<group>"; };
+		8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObjectCache.swift; sourceTree = "<group>"; };
+		8B63A19C1D9580E0004F937C /* ExampleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObject.swift; sourceTree = "<group>"; };
 		8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanCache.h; sourceTree = "<group>"; };
 		8BEF1AAF1D92E34300BD3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -94,6 +98,8 @@
 			isa = PBXGroup;
 			children = (
 				8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */,
+				8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */,
+				8B63A19C1D9580E0004F937C /* ExampleObject.swift */,
 				8BEF1ABB1D92E34300BD3A2D /* Info.plist */,
 			);
 			path = LeanCacheTests;
@@ -230,7 +236,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B63A19B1D9580BF004F937C /* ExampleObjectCache.swift in Sources */,
 				8BEF1ABA1D92E34300BD3A2D /* LeanCacheTests.swift in Sources */,
+				8B63A19D1D9580E0004F937C /* ExampleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

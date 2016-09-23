@@ -1,4 +1,5 @@
-# LeanCache
+# LeanCache 💁
+
 [![Version](https://img.shields.io/badge/version-v1.0.0-blue.svg)](https://github.com/KevinVitale/ReactiveJSON/releases/latest)
 ![Platforms](https://img.shields.io/badge/platforms-ios%20%7C%20osx%20%7C%20tvos-lightgrey.svg)
 ![Languages](https://img.shields.io/badge/languages-swift%202.3-orange.svg)
