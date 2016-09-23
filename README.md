@@ -99,4 +99,8 @@ let cache = ExampleObjectCache()
 cache.set(andrew)
 print(cache.get()?.name) // "Andrew"
 
+//get model from persistent cache
+cache.set(mariah)
+print(ExampleObjectCache().get()?.name) // Mariah
+
 ```
