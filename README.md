@@ -5,7 +5,7 @@
 ![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)][Carthage]
 [![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatable-red.s
-)[Cocoapods]
+)][Cocoapods]
 
 [Carthage]: https://github.com/carthage/carthage
 [Cocoapods]: https://cocoapods.org
