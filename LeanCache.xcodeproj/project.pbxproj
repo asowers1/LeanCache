@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8B00047A1D95749A005AACB5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
+		8B00047C1D9574CF005AACB5 /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
 		8BEF1AB51D92E34300BD3A2D /* LeanCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */; };
 		8BEF1ABA1D92E34300BD3A2D /* LeanCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */; };
 		8BEF1ABC1D92E34300BD3A2D /* LeanCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +27,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8B0004791D95749A005AACB5 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
+		8B00047B1D9574CF005AACB5 /* PersistentCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentCache.swift; sourceTree = "<group>"; };
 		8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanCache.h; sourceTree = "<group>"; };
 		8BEF1AAF1D92E34300BD3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +83,8 @@
 			isa = PBXGroup;
 			children = (
 				8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */,
+				8B0004791D95749A005AACB5 /* Cache.swift */,
+				8B00047B1D9574CF005AACB5 /* PersistentCache.swift */,
 				8BEF1AAF1D92E34300BD3A2D /* Info.plist */,
 			);
 			path = LeanCache;
@@ -165,6 +171,7 @@
 					8BEF1AAA1D92E34300BD3A2D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2DP9335PZJ;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					8BEF1AB31D92E34300BD3A2D = {
@@ -214,6 +221,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B00047A1D95749A005AACB5 /* Cache.swift in Sources */,
+				8B00047C1D9574CF005AACB5 /* PersistentCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -338,6 +347,7 @@
 		8BEF1AC01D92E34300BD3A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2DP9335PZJ;
@@ -351,6 +361,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.LeanCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
@@ -358,6 +369,7 @@
 		8BEF1AC11D92E34300BD3A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = 2DP9335PZJ;
@@ -378,6 +390,7 @@
 		8BEF1AC31D92E34300BD3A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2DP9335PZJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -388,13 +401,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.LeanCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Debug;
 		};
 		8BEF1AC41D92E34300BD3A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				DEVELOPMENT_TEAM = 2DP9335PZJ;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
@@ -405,7 +419,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.LeanCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 2.3;
 			};
 			name = Release;
 		};
