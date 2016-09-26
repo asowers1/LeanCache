@@ -17,9 +17,9 @@ With LeanCache, you're in control of your own desteny! This is because LeanCache
 
 # Getting started – example caching lifecycle
 
-All you need to do is start with a model like so
+All you need to do is start with a model like the following, but it should be readily apparent that it'd be trivial to modify this flow to fit your needs.
 
-```
+```swift
 struct ExampleObject {
     let name: String
     let age: Int
@@ -35,14 +35,14 @@ struct ExampleObject {
 
 Next, you'd create a cache type protocol and implement a coder for your model
 
-```
+```swift
 protocol ExampleObjectCacheType {
     func get() -> ExampleObject?
     func set(object: ExampleObject)
 }
 ```
 
-```
+```swift
 class ExampleObjectCoder: NSObject, NSCoding {
     let exampleObject: ExampleObject?
 
@@ -70,7 +70,7 @@ class ExampleObjectCoder: NSObject, NSCoding {
 
 After that, create a caching wrapper for your model
 
-```
+```swift
 class ExampleObjectCache: NSObject, ExampleObjectCacheType {
     let cache: Cache<ExampleObjectCoder>
 
@@ -91,7 +91,7 @@ class ExampleObjectCache: NSObject, ExampleObjectCacheType {
 
 Finally, you can interact with your cache and persist new objects
 
-```
+```swift
 let andrew = ExampleObject(name: "Andrew", age: 24, favoriteLanguage: "Swift")
 let mariah = ExampleObject(name: "Mariah", age: 21, favoriteLanguage: "Objective-C")
 
