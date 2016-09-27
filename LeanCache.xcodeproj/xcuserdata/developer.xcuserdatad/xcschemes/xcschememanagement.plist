@@ -4,6 +4,21 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>LeanCache MacOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>10</integer>
+		</dict>
+		<key>LeanCache WatchOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>8</integer>
+		</dict>
+		<key>LeanCache tvOS.xcscheme_^#shared#^_</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>9</integer>
+		</dict>
 		<key>LeanCache.xcscheme_^#shared#^_</key>
 		<dict>
 			<key>orderHint</key>
@@ -12,6 +27,41 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
+		<key>8B63A2031D95B1FC004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B63A20F1D9AB96C004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B63A21C1D9AB986004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B63A2241D9AB986004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B63A2381D9AB999004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B63A2401D9AB999004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>8B63A2601D9AE744004F937C</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
 		<key>8BEF1AAA1D92E34300BD3A2D</key>
 		<dict>
 			<key>primary</key>

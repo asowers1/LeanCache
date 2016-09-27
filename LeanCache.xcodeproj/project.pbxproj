@@ -11,6 +11,27 @@
 		8B00047C1D9574CF005AACB5 /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
 		8B63A19B1D9580BF004F937C /* ExampleObjectCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */; };
 		8B63A19D1D9580E0004F937C /* ExampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19C1D9580E0004F937C /* ExampleObject.swift */; };
+		8B63A2141D9AB96C004F937C /* LeanCache WatchOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B63A2121D9AB96C004F937C /* LeanCache WatchOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B63A2261D9AB986004F937C /* LeanCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63A21D1D9AB986004F937C /* LeanCache.framework */; };
+		8B63A22B1D9AB986004F937C /* LeanCache_tvOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A22A1D9AB986004F937C /* LeanCache_tvOSTests.swift */; };
+		8B63A22D1D9AB986004F937C /* LeanCache tvOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B63A21F1D9AB986004F937C /* LeanCache tvOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B63A2421D9AB999004F937C /* LeanCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63A2391D9AB999004F937C /* LeanCache.framework */; };
+		8B63A2471D9AB999004F937C /* LeanCache_MacOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A2461D9AB999004F937C /* LeanCache_MacOSTests.swift */; };
+		8B63A2491D9AB999004F937C /* LeanCache MacOS.h in Headers */ = {isa = PBXBuildFile; fileRef = 8B63A23B1D9AB999004F937C /* LeanCache MacOS.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B63A2771D9B115D004F937C /* ExampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19C1D9580E0004F937C /* ExampleObject.swift */; };
+		8B63A2781D9B115E004F937C /* ExampleObject.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19C1D9580E0004F937C /* ExampleObject.swift */; };
+		8B63A27A1D9B1189004F937C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63A2791D9B1189004F937C /* Nimble.framework */; };
+		8B63A27C1D9B118D004F937C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63A27B1D9B118D004F937C /* Quick.framework */; };
+		8B63A27E1D9B1196004F937C /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63A27D1D9B1196004F937C /* Nimble.framework */; };
+		8B63A2801D9B119A004F937C /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8B63A27F1D9B119A004F937C /* Quick.framework */; };
+		8B63A2831D9B1382004F937C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
+		8B63A2841D9B1385004F937C /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
+		8B63A2851D9B1703004F937C /* ExampleObjectCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */; };
+		8B63A2861D9B170E004F937C /* ExampleObjectCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */; };
+		8B63A2871D9B1726004F937C /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
+		8B63A2881D9B1728004F937C /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
+		8B63A2891D9B172B004F937C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
+		8B63A28A1D9B172B004F937C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
 		8BEF1AB51D92E34300BD3A2D /* LeanCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */; };
 		8BEF1ABA1D92E34300BD3A2D /* LeanCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */; };
 		8BEF1ABC1D92E34300BD3A2D /* LeanCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -19,6 +40,20 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		8B63A2271D9AB986004F937C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEF1AA21D92E34300BD3A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B63A21C1D9AB986004F937C;
+			remoteInfo = "LeanCache tvOS";
+		};
+		8B63A2431D9AB999004F937C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8BEF1AA21D92E34300BD3A2D /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8B63A2381D9AB999004F937C;
+			remoteInfo = "LeanCache MacOS";
+		};
 		8BEF1AB61D92E34300BD3A2D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 8BEF1AA21D92E34300BD3A2D /* Project object */;
@@ -33,6 +68,25 @@
 		8B00047B1D9574CF005AACB5 /* PersistentCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentCache.swift; sourceTree = "<group>"; };
 		8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObjectCache.swift; sourceTree = "<group>"; };
 		8B63A19C1D9580E0004F937C /* ExampleObject.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObject.swift; sourceTree = "<group>"; };
+		8B63A2101D9AB96C004F937C /* LeanCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B63A2121D9AB96C004F937C /* LeanCache WatchOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanCache WatchOS.h"; sourceTree = "<group>"; };
+		8B63A2131D9AB96C004F937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B63A21D1D9AB986004F937C /* LeanCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B63A21F1D9AB986004F937C /* LeanCache tvOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanCache tvOS.h"; sourceTree = "<group>"; };
+		8B63A2201D9AB986004F937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B63A2251D9AB986004F937C /* LeanCache tvOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeanCache tvOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B63A22A1D9AB986004F937C /* LeanCache_tvOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCache_tvOSTests.swift; sourceTree = "<group>"; };
+		8B63A22C1D9AB986004F937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B63A2391D9AB999004F937C /* LeanCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B63A23B1D9AB999004F937C /* LeanCache MacOS.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LeanCache MacOS.h"; sourceTree = "<group>"; };
+		8B63A23C1D9AB999004F937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B63A2411D9AB999004F937C /* LeanCache MacOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "LeanCache MacOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		8B63A2461D9AB999004F937C /* LeanCache_MacOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCache_MacOSTests.swift; sourceTree = "<group>"; };
+		8B63A2481D9AB999004F937C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8B63A2791D9B1189004F937C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-appletvos/Nimble.framework"; sourceTree = "<group>"; };
+		8B63A27B1D9B118D004F937C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-appletvos/Quick.framework"; sourceTree = "<group>"; };
+		8B63A27D1D9B1196004F937C /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = Carthage/Checkouts/Nimble/build/Debug/Nimble.framework; sourceTree = "<group>"; };
+		8B63A27F1D9B119A004F937C /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = "Carthage/Checkouts/Quick/build/Debug-appletvos/Quick.framework"; sourceTree = "<group>"; };
 		8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LeanCache.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanCache.h; sourceTree = "<group>"; };
 		8BEF1AAF1D92E34300BD3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -44,6 +98,47 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		8B63A20C1D9AB96C004F937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2191D9AB986004F937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2221D9AB986004F937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A27C1D9B118D004F937C /* Quick.framework in Frameworks */,
+				8B63A27A1D9B1189004F937C /* Nimble.framework in Frameworks */,
+				8B63A2261D9AB986004F937C /* LeanCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2351D9AB999004F937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A23E1D9AB999004F937C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A2801D9B119A004F937C /* Quick.framework in Frameworks */,
+				8B63A27E1D9B1196004F937C /* Nimble.framework in Frameworks */,
+				8B63A2421D9AB999004F937C /* LeanCache.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BEF1AA71D92E34300BD3A2D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -64,11 +159,61 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		8B63A2111D9AB96C004F937C /* LeanCache WatchOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B63A2121D9AB96C004F937C /* LeanCache WatchOS.h */,
+				8B63A2131D9AB96C004F937C /* Info.plist */,
+			);
+			path = "LeanCache WatchOS";
+			sourceTree = "<group>";
+		};
+		8B63A21E1D9AB986004F937C /* LeanCache tvOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B63A21F1D9AB986004F937C /* LeanCache tvOS.h */,
+				8B63A2201D9AB986004F937C /* Info.plist */,
+			);
+			path = "LeanCache tvOS";
+			sourceTree = "<group>";
+		};
+		8B63A2291D9AB986004F937C /* LeanCache tvOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B63A22A1D9AB986004F937C /* LeanCache_tvOSTests.swift */,
+				8B63A22C1D9AB986004F937C /* Info.plist */,
+			);
+			path = "LeanCache tvOSTests";
+			sourceTree = "<group>";
+		};
+		8B63A23A1D9AB999004F937C /* LeanCache MacOS */ = {
+			isa = PBXGroup;
+			children = (
+				8B63A23B1D9AB999004F937C /* LeanCache MacOS.h */,
+				8B63A23C1D9AB999004F937C /* Info.plist */,
+			);
+			path = "LeanCache MacOS";
+			sourceTree = "<group>";
+		};
+		8B63A2451D9AB999004F937C /* LeanCache MacOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				8B63A2461D9AB999004F937C /* LeanCache_MacOSTests.swift */,
+				8B63A2481D9AB999004F937C /* Info.plist */,
+			);
+			path = "LeanCache MacOSTests";
+			sourceTree = "<group>";
+		};
 		8BEF1AA11D92E34300BD3A2D = {
 			isa = PBXGroup;
 			children = (
 				8BEF1AAD1D92E34300BD3A2D /* LeanCache */,
 				8BEF1AB81D92E34300BD3A2D /* LeanCacheTests */,
+				8B63A2111D9AB96C004F937C /* LeanCache WatchOS */,
+				8B63A21E1D9AB986004F937C /* LeanCache tvOS */,
+				8B63A2291D9AB986004F937C /* LeanCache tvOSTests */,
+				8B63A23A1D9AB999004F937C /* LeanCache MacOS */,
+				8B63A2451D9AB999004F937C /* LeanCache MacOSTests */,
 				8BEF1AAC1D92E34300BD3A2D /* Products */,
 				8BEF1AC51D92E7F400BD3A2D /* Frameworks */,
 			);
@@ -79,6 +224,11 @@
 			children = (
 				8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */,
 				8BEF1AB41D92E34300BD3A2D /* LeanCacheTests.xctest */,
+				8B63A2101D9AB96C004F937C /* LeanCache.framework */,
+				8B63A21D1D9AB986004F937C /* LeanCache.framework */,
+				8B63A2251D9AB986004F937C /* LeanCache tvOSTests.xctest */,
+				8B63A2391D9AB999004F937C /* LeanCache.framework */,
+				8B63A2411D9AB999004F937C /* LeanCache MacOSTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,6 +258,10 @@
 		8BEF1AC51D92E7F400BD3A2D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				8B63A27F1D9B119A004F937C /* Quick.framework */,
+				8B63A27D1D9B1196004F937C /* Nimble.framework */,
+				8B63A27B1D9B118D004F937C /* Quick.framework */,
+				8B63A2791D9B1189004F937C /* Nimble.framework */,
 				8BEF1AC81D92E80400BD3A2D /* Quick.framework */,
 				8BEF1AC61D92E7F400BD3A2D /* Nimble.framework */,
 			);
@@ -117,6 +271,30 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		8B63A20D1D9AB96C004F937C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A2141D9AB96C004F937C /* LeanCache WatchOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A21A1D9AB986004F937C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A22D1D9AB986004F937C /* LeanCache tvOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2361D9AB999004F937C /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A2491D9AB999004F937C /* LeanCache MacOS.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BEF1AA81D92E34300BD3A2D /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -128,6 +306,96 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		8B63A20F1D9AB96C004F937C /* LeanCache WatchOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B63A2171D9AB96D004F937C /* Build configuration list for PBXNativeTarget "LeanCache WatchOS" */;
+			buildPhases = (
+				8B63A20B1D9AB96C004F937C /* Sources */,
+				8B63A20C1D9AB96C004F937C /* Frameworks */,
+				8B63A20D1D9AB96C004F937C /* Headers */,
+				8B63A20E1D9AB96C004F937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeanCache WatchOS";
+			productName = "LeanCache WatchOS";
+			productReference = 8B63A2101D9AB96C004F937C /* LeanCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B63A21C1D9AB986004F937C /* LeanCache tvOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B63A22E1D9AB986004F937C /* Build configuration list for PBXNativeTarget "LeanCache tvOS" */;
+			buildPhases = (
+				8B63A2181D9AB986004F937C /* Sources */,
+				8B63A2191D9AB986004F937C /* Frameworks */,
+				8B63A21A1D9AB986004F937C /* Headers */,
+				8B63A21B1D9AB986004F937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeanCache tvOS";
+			productName = "LeanCache tvOS";
+			productReference = 8B63A21D1D9AB986004F937C /* LeanCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B63A2241D9AB986004F937C /* LeanCache tvOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B63A2311D9AB986004F937C /* Build configuration list for PBXNativeTarget "LeanCache tvOSTests" */;
+			buildPhases = (
+				8B63A2211D9AB986004F937C /* Sources */,
+				8B63A2221D9AB986004F937C /* Frameworks */,
+				8B63A2231D9AB986004F937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B63A2281D9AB986004F937C /* PBXTargetDependency */,
+			);
+			name = "LeanCache tvOSTests";
+			productName = "LeanCache tvOSTests";
+			productReference = 8B63A2251D9AB986004F937C /* LeanCache tvOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8B63A2381D9AB999004F937C /* LeanCache MacOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B63A24A1D9AB999004F937C /* Build configuration list for PBXNativeTarget "LeanCache MacOS" */;
+			buildPhases = (
+				8B63A2341D9AB999004F937C /* Sources */,
+				8B63A2351D9AB999004F937C /* Frameworks */,
+				8B63A2361D9AB999004F937C /* Headers */,
+				8B63A2371D9AB999004F937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LeanCache MacOS";
+			productName = "LeanCache MacOS";
+			productReference = 8B63A2391D9AB999004F937C /* LeanCache.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		8B63A2401D9AB999004F937C /* LeanCache MacOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8B63A24D1D9AB999004F937C /* Build configuration list for PBXNativeTarget "LeanCache MacOSTests" */;
+			buildPhases = (
+				8B63A23D1D9AB999004F937C /* Sources */,
+				8B63A23E1D9AB999004F937C /* Frameworks */,
+				8B63A23F1D9AB999004F937C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8B63A2441D9AB999004F937C /* PBXTargetDependency */,
+			);
+			name = "LeanCache MacOSTests";
+			productName = "LeanCache MacOSTests";
+			productReference = 8B63A2411D9AB999004F937C /* LeanCache MacOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		8BEF1AAA1D92E34300BD3A2D /* LeanCache */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8BEF1ABF1D92E34300BD3A2D /* Build configuration list for PBXNativeTarget "LeanCache" */;
@@ -174,6 +442,32 @@
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Andrew Sowers";
 				TargetAttributes = {
+					8B63A20F1D9AB96C004F937C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2DP9335PZJ;
+						LastSwiftMigration = 0800;
+						ProvisioningStyle = Automatic;
+					};
+					8B63A21C1D9AB986004F937C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2DP9335PZJ;
+						ProvisioningStyle = Automatic;
+					};
+					8B63A2241D9AB986004F937C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2DP9335PZJ;
+						ProvisioningStyle = Automatic;
+					};
+					8B63A2381D9AB999004F937C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2DP9335PZJ;
+						ProvisioningStyle = Automatic;
+					};
+					8B63A2401D9AB999004F937C = {
+						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 2DP9335PZJ;
+						ProvisioningStyle = Automatic;
+					};
 					8BEF1AAA1D92E34300BD3A2D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2DP9335PZJ;
@@ -201,11 +495,51 @@
 			targets = (
 				8BEF1AAA1D92E34300BD3A2D /* LeanCache */,
 				8BEF1AB31D92E34300BD3A2D /* LeanCacheTests */,
+				8B63A20F1D9AB96C004F937C /* LeanCache WatchOS */,
+				8B63A21C1D9AB986004F937C /* LeanCache tvOS */,
+				8B63A2241D9AB986004F937C /* LeanCache tvOSTests */,
+				8B63A2381D9AB999004F937C /* LeanCache MacOS */,
+				8B63A2401D9AB999004F937C /* LeanCache MacOSTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		8B63A20E1D9AB96C004F937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A21B1D9AB986004F937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2231D9AB986004F937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2371D9AB999004F937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A23F1D9AB999004F937C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BEF1AA91D92E34300BD3A2D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -223,6 +557,53 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		8B63A20B1D9AB96C004F937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A28A1D9B172B004F937C /* Cache.swift in Sources */,
+				8B63A2881D9B1728004F937C /* PersistentCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2181D9AB986004F937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A2891D9B172B004F937C /* Cache.swift in Sources */,
+				8B63A2871D9B1726004F937C /* PersistentCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2211D9AB986004F937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A22B1D9AB986004F937C /* LeanCache_tvOSTests.swift in Sources */,
+				8B63A2771D9B115D004F937C /* ExampleObject.swift in Sources */,
+				8B63A2861D9B170E004F937C /* ExampleObjectCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A2341D9AB999004F937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A2831D9B1382004F937C /* Cache.swift in Sources */,
+				8B63A2841D9B1385004F937C /* PersistentCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8B63A23D1D9AB999004F937C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B63A2471D9AB999004F937C /* LeanCache_MacOSTests.swift in Sources */,
+				8B63A2781D9B115E004F937C /* ExampleObject.swift in Sources */,
+				8B63A2851D9B1703004F937C /* ExampleObjectCache.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		8BEF1AA61D92E34300BD3A2D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -245,6 +626,16 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		8B63A2281D9AB986004F937C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B63A21C1D9AB986004F937C /* LeanCache tvOS */;
+			targetProxy = 8B63A2271D9AB986004F937C /* PBXContainerItemProxy */;
+		};
+		8B63A2441D9AB999004F937C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8B63A2381D9AB999004F937C /* LeanCache MacOS */;
+			targetProxy = 8B63A2431D9AB999004F937C /* PBXContainerItemProxy */;
+		};
 		8BEF1AB71D92E34300BD3A2D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = 8BEF1AAA1D92E34300BD3A2D /* LeanCache */;
@@ -253,6 +644,233 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		8B63A2151D9AB96D004F937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LeanCache WatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-WatchOS";
+				PRODUCT_NAME = LeanCache;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Debug;
+		};
+		8B63A2161D9AB96D004F937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LeanCache WatchOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-WatchOS";
+				PRODUCT_NAME = LeanCache;
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 3.0;
+			};
+			name = Release;
+		};
+		8B63A22F1D9AB986004F937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LeanCache tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-tvOS";
+				PRODUCT_NAME = LeanCache;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8B63A2301D9AB986004F937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "LeanCache tvOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-tvOS";
+				PRODUCT_NAME = LeanCache;
+				SDKROOT = appletvos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8B63A2321D9AB986004F937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "LeanCache tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Debug;
+		};
+		8B63A2331D9AB986004F937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug-appletvos",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "LeanCache tvOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-tvOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = appletvos;
+				SWIFT_VERSION = 2.3;
+				TVOS_DEPLOYMENT_TARGET = 10.0;
+			};
+			name = Release;
+		};
+		8B63A24B1D9AB999004F937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "LeanCache MacOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-MacOS";
+				PRODUCT_NAME = LeanCache;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		8B63A24C1D9AB999004F937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "LeanCache MacOS/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-MacOS";
+				PRODUCT_NAME = LeanCache;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
+		8B63A24E1D9AB999004F937C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "LeanCache MacOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Debug;
+		};
+		8B63A24F1D9AB999004F937C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COMBINE_HIDPI_IMAGES = YES;
+				DEVELOPMENT_TEAM = 2DP9335PZJ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Nimble/build/Debug",
+					"$(PROJECT_DIR)/Carthage/Checkouts/Quick/build/Debug-appletvos",
+				);
+				INFOPLIST_FILE = "LeanCache MacOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-MacOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_VERSION = 2.3;
+			};
+			name = Release;
+		};
 		8BEF1ABD1D92E34300BD3A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -300,7 +918,9 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i368";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -345,8 +965,10 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i368";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
@@ -355,6 +977,7 @@
 		8BEF1AC01D92E34300BD3A2D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -378,6 +1001,7 @@
 		8BEF1AC11D92E34300BD3A2D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
@@ -435,6 +1059,46 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		8B63A2171D9AB96D004F937C /* Build configuration list for PBXNativeTarget "LeanCache WatchOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B63A2151D9AB96D004F937C /* Debug */,
+				8B63A2161D9AB96D004F937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B63A22E1D9AB986004F937C /* Build configuration list for PBXNativeTarget "LeanCache tvOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B63A22F1D9AB986004F937C /* Debug */,
+				8B63A2301D9AB986004F937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B63A2311D9AB986004F937C /* Build configuration list for PBXNativeTarget "LeanCache tvOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B63A2321D9AB986004F937C /* Debug */,
+				8B63A2331D9AB986004F937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B63A24A1D9AB999004F937C /* Build configuration list for PBXNativeTarget "LeanCache MacOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B63A24B1D9AB999004F937C /* Debug */,
+				8B63A24C1D9AB999004F937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		8B63A24D1D9AB999004F937C /* Build configuration list for PBXNativeTarget "LeanCache MacOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8B63A24E1D9AB999004F937C /* Debug */,
+				8B63A24F1D9AB999004F937C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		8BEF1AA51D92E34300BD3A2D /* Build configuration list for PBXProject "LeanCache" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

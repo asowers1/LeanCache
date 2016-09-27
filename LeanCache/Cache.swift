@@ -22,7 +22,7 @@ public class Cache<T: NSCoding> {
             return cache
         }()
         
-        self.persistentCache = PersistentCache<T>(name: "\(NSBundle.mainBundle().bundleIdentifier ?? "com.LeanCache.").cache")
+        self.persistentCache = PersistentCache<T>(name: "com.LeanCache.\(name).cache")
     }
     
     public func get() -> T? {

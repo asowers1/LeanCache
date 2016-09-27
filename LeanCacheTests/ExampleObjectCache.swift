@@ -6,6 +6,7 @@
 //
 
 import LeanCache
+import Foundation
 
 class ExampleObjectCoder: NSObject, NSCoding {
     let exampleObject: ExampleObject?
