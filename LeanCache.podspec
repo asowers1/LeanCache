@@ -9,6 +9,6 @@ Pod::Spec.new do |spec|
 
 	spec.platform = :ios, "9.3"
 	spec.requires_arc = true
-	spec.source = { git: "https://github.com/asowers1/LeanCache.git", tag: "v#{spec.version}", submodules: true }
+	spec.source = { git: "https://github.com/asowers1/LeanCache.git", tag: ":#{spec.version}", submodules: true }
 	spec.source_files = "LeanCache/**/*.{h,swift}"
 end
