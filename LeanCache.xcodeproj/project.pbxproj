@@ -665,6 +665,7 @@
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i368 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Debug;
@@ -689,6 +690,7 @@
 				SKIP_INSTALL = YES;
 				SWIFT_VERSION = 2.3;
 				TARGETED_DEVICE_FAMILY = 4;
+				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i368 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
 			};
 			name = Release;
@@ -1066,6 +1068,7 @@
 				8B63A2161D9AB96D004F937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B63A22E1D9AB986004F937C /* Build configuration list for PBXNativeTarget "LeanCache tvOS" */ = {
 			isa = XCConfigurationList;
@@ -1074,6 +1077,7 @@
 				8B63A2301D9AB986004F937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B63A2311D9AB986004F937C /* Build configuration list for PBXNativeTarget "LeanCache tvOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1082,6 +1086,7 @@
 				8B63A2331D9AB986004F937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B63A24A1D9AB999004F937C /* Build configuration list for PBXNativeTarget "LeanCache MacOS" */ = {
 			isa = XCConfigurationList;
@@ -1090,6 +1095,7 @@
 				8B63A24C1D9AB999004F937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8B63A24D1D9AB999004F937C /* Build configuration list for PBXNativeTarget "LeanCache MacOSTests" */ = {
 			isa = XCConfigurationList;
@@ -1098,6 +1104,7 @@
 				8B63A24F1D9AB999004F937C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8BEF1AA51D92E34300BD3A2D /* Build configuration list for PBXProject "LeanCache" */ = {
 			isa = XCConfigurationList;
