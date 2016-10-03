@@ -7,7 +7,7 @@ class RGBTests: QuickSpec {
         describe("LeanCache") {
             it("can cache objects") {
                 let andrew = ExampleObject(name: "Andrew", age: 24, favoriteLanguage: "Swift")
-                let mariah = ExampleObject(name: "Mariah", age: 21, favoriteLanguage: "Objective-C")
+                let mariah = ExampleObject(name: "Mariah", age: 22, favoriteLanguage: "Objective-C")
                 
                 let cache = ExampleObjectCache()
                 cache.set(andrew)
