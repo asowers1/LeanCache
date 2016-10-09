@@ -8,8 +8,8 @@
 
 import Foundation
 
-public class Cache<T: NSCoding> {
-    let memoryCache: NSCache
+open class Cache<T: NSCoding> {
+    let memoryCache: NSCache<AnyObject, AnyObject>
     let persistentCache: PersistentCache<T>
     
     let name: String
@@ -17,7 +17,7 @@ public class Cache<T: NSCoding> {
     public init(name: String) {
         self.name = name
         self.memoryCache = {
-            let cache = NSCache()
+            let cache = NSCache<AnyObject, AnyObject>()
             cache.name = name
             return cache
         }()
@@ -25,8 +25,8 @@ public class Cache<T: NSCoding> {
         self.persistentCache = PersistentCache<T>(name: "com.LeanCache.\(name).cache")
     }
     
-    public func get() -> T? {
-        if let object = self.memoryCache.objectForKey(self.name) as? T {
+    open func get() -> T? {
+        if let object = self.memoryCache.object(forKey: self.name as AnyObject) as? T {
             return object
         } else if let object = self.persistentCache.get(self.name) {
             return object
@@ -35,12 +35,12 @@ public class Cache<T: NSCoding> {
         }
     }
     
-    public func set(object: T) {
-        self.memoryCache.setObject(object, forKey: self.name)
+    open func set(_ object: T) {
+        self.memoryCache.setObject(object, forKey: self.name as AnyObject)
         self.persistentCache.set(object, forKey: self.name)
     }
     
-    public func clear() {
+    open func clear() {
         self.memoryCache.removeAllObjects()
         self.persistentCache.clear()
     }
