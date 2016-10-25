@@ -1,7 +1,7 @@
 # LeanCache 💁
 
-![Platforms](https://img.shields.io/badge/platforms-iOS%20|%20WatchOS%20|%20MacOS%20|%20tvOS-blue.svg)
-![Languages](https://img.shields.io/badge/languages-swift%202.3-orange.svg)
+![Platforms](https://img.shields.io/badge/platforms-iOS%20|%20watchOS%20|%20macOS%20|%20tvOS-blue.svg)
+![Languages](https://img.shields.io/badge/languages-Swift%203-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT%2FApache-blue.svg)
 [![Carthage compatible](https://img.shields.io/badge/Carthage-compatible-4BC51D.svg?style=flat)][Carthage]
 [![Cocoapods compatible](https://img.shields.io/badge/Cocoapods-compatible-red.svg

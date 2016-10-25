@@ -10,28 +10,28 @@ import Foundation
 
 class PersistentCache<T: NSCoding> {
     let name: String
-    let fileManager: NSFileManager
-    let cacheDirectory: NSURL
+    let fileManager: FileManager
+    let cacheDirectory: URL
     
     init(name: String) {
         self.name = name
-        self.fileManager = NSFileManager.defaultManager()
+        self.fileManager = FileManager.default
         
-        let cachesDirectory = self.fileManager.URLsForDirectory(.CachesDirectory, inDomains: .UserDomainMask).first!
-        self.cacheDirectory = cachesDirectory.URLByAppendingPathComponent(name)!
+        let cachesDirectory = self.fileManager.urls(for: .cachesDirectory, in: .userDomainMask).first!
+        self.cacheDirectory = cachesDirectory.appendingPathComponent(name)
     }
     
-    func filePathForKey(key: String) -> String {
-        return self.cacheDirectory.URLByAppendingPathComponent(key)!.path!
+    func filePathForKey(_ key: String) -> String {
+        return self.cacheDirectory.appendingPathComponent(key).path
     }
     
-    func get(key: String) -> T? {
-        return NSKeyedUnarchiver.unarchiveObjectWithFile(self.filePathForKey(key)) as? T
+    func get(_ key: String) -> T? {
+        return NSKeyedUnarchiver.unarchiveObject(withFile: self.filePathForKey(key)) as? T
     }
     
-    func set(object: T, forKey key: String) {
+    func set(_ object: T, forKey key: String) {
         do {
-            try self.fileManager.createDirectoryAtURL(self.cacheDirectory, withIntermediateDirectories: true, attributes: nil)
+            try self.fileManager.createDirectory(at: self.cacheDirectory, withIntermediateDirectories: true, attributes: nil)
         } catch _ {
             
         }
@@ -40,7 +40,7 @@ class PersistentCache<T: NSCoding> {
     
     func clear() {
         do {
-            try self.fileManager.removeItemAtURL(self.cacheDirectory)
+            try self.fileManager.removeItem(at: self.cacheDirectory)
         } catch _ {
         }
     }

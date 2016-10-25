@@ -16,30 +16,30 @@ class ExampleObjectCoder: NSObject, NSCoding {
     }
     
     required init?(coder: NSCoder) {
-        if let name = coder.decodeObjectForKey("name") as? String,
-            let age = coder.decodeObjectForKey("age") as? Int,
-            let favoriteLanguage = coder.decodeObjectForKey("favorite_language") as? String {
+        if let name = coder.decodeObject(forKey: "name") as? String,
+            let age = coder.decodeObject(forKey: "age") as? Int,
+            let favoriteLanguage = coder.decodeObject(forKey: "favorite_language") as? String {
             self.exampleObject = ExampleObject(name: name, age: age, favoriteLanguage: favoriteLanguage)
         } else {
             self.exampleObject = nil
         }
     }
     
-    func encodeWithCoder(coder: NSCoder) {
-        coder.encodeObject(self.exampleObject?.name, forKey: "name")
-        coder.encodeObject(self.exampleObject?.age, forKey: "age")
-        coder.encodeObject(self.exampleObject?.favoriteLanguage, forKey: "favorite_language")
+    func encode(with coder: NSCoder) {
+        coder.encode(self.exampleObject?.name, forKey: "name")
+        coder.encode(self.exampleObject?.age, forKey: "age")
+        coder.encode(self.exampleObject?.favoriteLanguage, forKey: "favorite_language")
     }
 }
 
 protocol ExampleObjectCollectionCacheType {
     func get() -> [ExampleObject]?
-    func set(objects: [ExampleObject])
+    func set(_ objects: [ExampleObject])
 }
 
 protocol ExampleObjectCacheType {
     func get() -> ExampleObject?
-    func set(object: ExampleObject)
+    func set(_ object: ExampleObject)
 }
 
 
@@ -56,7 +56,7 @@ class ExampleObjectCache: NSObject, ExampleObjectCacheType {
         return self.cache.get()?.exampleObject
     }
     
-    func set(object: ExampleObject) {
+    func set(_ object: ExampleObject) {
         let coder = ExampleObjectCoder(exampleObject: object)
         self.cache.set(coder)
     }
@@ -81,9 +81,9 @@ class ExampleObjectCollectionCache: NSObject, ExampleObjectCollectionCacheType {
         return nil
     }
     
-    func set(objects: [ExampleObject]) {
+    func set(_ objects: [ExampleObject]) {
         let coders = objects.map { ExampleObjectCoder(exampleObject: $0) }
-        self.cache.set(coders)
+        self.cache.set(coders as NSArray)
     }
     
     func clear() {
