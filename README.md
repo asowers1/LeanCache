@@ -92,7 +92,7 @@ class ExampleObjectCache: NSObject, ExampleObjectCacheType {
 Finally, you can interact with your cache and persist new objects
 
 ```swift
-let andrew = ExampleObject(name: "Andrew", age: 24, favoriteLanguage: "Swift")
+let andrew = ExampleObject(name: "Andrew", age: 25, favoriteLanguage: "Swift")
 let mariah = ExampleObject(name: "Mariah", age: 22, favoriteLanguage: "Objective-C")
 
 let cache = ExampleObjectCache()
