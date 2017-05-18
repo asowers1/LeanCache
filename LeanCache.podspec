@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
 	spec.name = "LeanCache"
-	spec.version = "0.0.2"
+	spec.version = "0.2.0"
 	spec.summary = "A lean, mean, simple caching machine that's written in Swift"
 	spec.homepage = "http://haikurobot.io/index.php/leancache"
 	spec.license = { type: 'MIT', file: 'LICENSE' }
