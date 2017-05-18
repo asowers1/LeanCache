@@ -104,3 +104,5 @@ cache.set(mariah)
 print(ExampleObjectCache().get()?.name) // "Mariah"
 
 ```
+
+Authored by Klaas Pieter https://github.com/klaaspieter and migrated to Swift 3 / podified by Andrew Sowers https://github.com/asowers1
