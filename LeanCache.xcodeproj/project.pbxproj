@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6663B1821F3631ED00C0C3A4 /* LeanCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6663B1811F3631ED00C0C3A4 /* LeanCacheTests.swift */; };
 		8B00047A1D95749A005AACB5 /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
 		8B00047C1D9574CF005AACB5 /* PersistentCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B00047B1D9574CF005AACB5 /* PersistentCache.swift */; };
 		8B63A19B1D9580BF004F937C /* ExampleObjectCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */; };
@@ -33,10 +34,7 @@
 		8B63A2891D9B172B004F937C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
 		8B63A28A1D9B172B004F937C /* Cache.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B0004791D95749A005AACB5 /* Cache.swift */; };
 		8BEF1AB51D92E34300BD3A2D /* LeanCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF1AAB1D92E34300BD3A2D /* LeanCache.framework */; };
-		8BEF1ABA1D92E34300BD3A2D /* LeanCacheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */; };
 		8BEF1ABC1D92E34300BD3A2D /* LeanCache.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		8BEF1AC71D92E7F400BD3A2D /* Nimble.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF1AC61D92E7F400BD3A2D /* Nimble.framework */; };
-		8BEF1AC91D92E80400BD3A2D /* Quick.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8BEF1AC81D92E80400BD3A2D /* Quick.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +62,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		6663B1811F3631ED00C0C3A4 /* LeanCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCacheTests.swift; sourceTree = "<group>"; };
 		8B0004791D95749A005AACB5 /* Cache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Cache.swift; sourceTree = "<group>"; };
 		8B00047B1D9574CF005AACB5 /* PersistentCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersistentCache.swift; sourceTree = "<group>"; };
 		8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleObjectCache.swift; sourceTree = "<group>"; };
@@ -91,7 +90,6 @@
 		8BEF1AAE1D92E34300BD3A2D /* LeanCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = LeanCache.h; sourceTree = "<group>"; };
 		8BEF1AAF1D92E34300BD3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEF1AB41D92E34300BD3A2D /* LeanCacheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = LeanCacheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeanCacheTests.swift; sourceTree = "<group>"; };
 		8BEF1ABB1D92E34300BD3A2D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8BEF1AC61D92E7F400BD3A2D /* Nimble.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Nimble.framework; path = "Carthage/Checkouts/Nimble/build/Debug-iphoneos/Nimble.framework"; sourceTree = "<group>"; };
 		8BEF1AC81D92E80400BD3A2D /* Quick.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Quick.framework; path = Carthage/Checkouts/Quick/build/Debug/Quick.framework; sourceTree = "<group>"; };
@@ -150,8 +148,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8BEF1AC91D92E80400BD3A2D /* Quick.framework in Frameworks */,
-				8BEF1AC71D92E7F400BD3A2D /* Nimble.framework in Frameworks */,
 				8BEF1AB51D92E34300BD3A2D /* LeanCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -247,7 +243,7 @@
 		8BEF1AB81D92E34300BD3A2D /* LeanCacheTests */ = {
 			isa = PBXGroup;
 			children = (
-				8BEF1AB91D92E34300BD3A2D /* LeanCacheTests.swift */,
+				6663B1811F3631ED00C0C3A4 /* LeanCacheTests.swift */,
 				8B63A19A1D9580BF004F937C /* ExampleObjectCache.swift */,
 				8B63A19C1D9580E0004F937C /* ExampleObject.swift */,
 				8BEF1ABB1D92E34300BD3A2D /* Info.plist */,
@@ -439,7 +435,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0800;
-				LastUpgradeCheck = 0800;
+				LastUpgradeCheck = 0900;
 				ORGANIZATIONNAME = "Andrew Sowers";
 				TargetAttributes = {
 					8B63A20F1D9AB96C004F937C = {
@@ -471,13 +467,13 @@
 					8BEF1AAA1D92E34300BD3A2D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2DP9335PZJ;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 					8BEF1AB31D92E34300BD3A2D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 2DP9335PZJ;
-						LastSwiftMigration = 0800;
+						LastSwiftMigration = 0900;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -619,7 +615,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B63A19B1D9580BF004F937C /* ExampleObjectCache.swift in Sources */,
-				8BEF1ABA1D92E34300BD3A2D /* LeanCacheTests.swift in Sources */,
+				6663B1821F3631ED00C0C3A4 /* LeanCacheTests.swift in Sources */,
 				8B63A19D1D9580E0004F937C /* ExampleObject.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -664,7 +660,7 @@
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i368 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
@@ -689,7 +685,7 @@
 				PRODUCT_NAME = LeanCache;
 				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 4;
 				VALID_ARCHS = "arm64 armv7 armv7s x86_64 i368 armv7k";
 				WATCHOS_DEPLOYMENT_TARGET = 3.0;
@@ -713,7 +709,7 @@
 				PRODUCT_NAME = LeanCache;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -736,7 +732,7 @@
 				PRODUCT_NAME = LeanCache;
 				SDKROOT = appletvos;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 3;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
@@ -757,7 +753,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Debug;
@@ -777,7 +773,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-tvOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = appletvos;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 				TVOS_DEPLOYMENT_TARGET = 10.0;
 			};
 			name = Release;
@@ -802,7 +798,7 @@
 				PRODUCT_NAME = LeanCache;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -826,7 +822,7 @@
 				PRODUCT_NAME = LeanCache;
 				SDKROOT = macosx;
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -848,7 +844,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-MacOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -870,7 +866,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.andrew.LeanCache-MacOSTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = macosx;
-				SWIFT_VERSION = 3.0;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -883,7 +879,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -891,7 +889,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -938,7 +941,9 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
@@ -946,7 +951,12 @@
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -997,7 +1007,8 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1019,7 +1030,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.LeanCache;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -1037,7 +1049,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.LeanCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -1055,7 +1068,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.andrew.LeanCacheTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 3.0;
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
