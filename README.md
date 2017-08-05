@@ -14,6 +14,8 @@ LeanCache allows you to cache and persist plain old objects that conform to NSCo
 
 With LeanCache, you're in control of your own desteny! This is because LeanCache makes few assumptions about how you'd like to cache things and tasks you with creating your own object caching lifecycle.
 
+# Swift 4
+use the `swift-4` branch.
 
 # Getting started – example caching lifecycle
 
